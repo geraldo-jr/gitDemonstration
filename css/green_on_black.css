@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #0D0208;
+  color: #00FF41;
+  text-shadow: 0 0 4px #00FF41;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  font-smooth: never;
+  line-height: 1.7rem;
+}
+
+* {
+     user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+}
+
+span {
+  display: inline-block;
+}
+
+#main_content {
+  font-size: 1.2em;
+  padding: 0.2em;
+  caret-color: rgb(0,143,17,0.85);
+}
+
+.page {
+  display: none;
+}
+     
+hr {
+  height: 1px;
+  background-color: #00FF41;
+  border: none;
+}
+
+ol {
+  margin-left: 2rem;
+}
